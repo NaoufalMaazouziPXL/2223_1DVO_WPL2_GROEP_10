@@ -3,8 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="e210d393-98d2-4d1d-98cb-424f280f27c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1start-pagina-bertrand.html" beforeDir="false" afterPath="$PROJECT_DIR$/1start-pagina-bertrand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2contact-pagina-bertrand.html" beforeDir="false" afterPath="$PROJECT_DIR$/2contact-pagina-bertrand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/android app store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/apple app store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/bv-homepage-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/clem-onojeghuo-n6gnCa77Urc-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/contact-illustratie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/gezond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/homepage-illustratie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/icon _heart_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/icon _user_.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/logo-rise-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/mockup_android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/mockup_iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets-bert/revalideren.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682840793261</updated>
       <workItem from="1682840796042" duration="52000" />
-      <workItem from="1682842107524" duration="2886000" />
+      <workItem from="1682842107524" duration="3693000" />
     </task>
     <servers />
   </component>
