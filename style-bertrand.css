@@ -7,11 +7,11 @@
 }
 
 body {
-    background-color: #4FC67A;
+    background-color: #1ACD77;
 }
 /* NAV */
 .navbar{
-    background-color: #4FC67A;
+    background-color: #1ACD77;
 }
 
 .navbar-nav {
@@ -36,7 +36,7 @@ ul li a {
 }
 
 .bg-color {
-    background-color: #4FC67A;
+    background-color: #1ACD77;
     color: #ffff;
 }
 /* HEADER*/
@@ -52,7 +52,7 @@ ul li a {
     color: #ffffff;
 }
 .button {
-    color: #4FC67A;
+    color: #1ACD77;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 20px;
@@ -80,15 +80,15 @@ ul li a {
 
 .button_2 {
     color: #ffffff;
-    background-color: #4FC67A;
-    border: 1px solid #4FC67A;
+    background-color: #1ACD77;
+    border: 1px solid #1ACD77;
     border-radius: 20px;
     font-size: 14px;
     font-weight: bold;
 }
 .button_2:hover{
     background-color: #000000;
-    color: #4FC67A;
+    color: #1ACD77;
     border: 1px solid #000000;
 }
 
@@ -109,7 +109,27 @@ ul li a {
     height: 50px;
 }
 
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
 
+    }
+    .navbar-collapse{
+        background-color: #1ACD77;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    main{
+        padding-top: 100px;
+    }
+}
 
 
 
@@ -123,6 +143,14 @@ ul li a {
     border-radius: 25px 0 0 25px;
     z-index: 1;
 }
-.mapDiv{
-    z-index: 99999;
+
+.input{
+    border-bottom: 2px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+::placeholder{
+    color: #000000;
+    opacity: 100%;
 }
