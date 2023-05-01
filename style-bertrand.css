@@ -23,6 +23,9 @@ ul li a {
     color: #E6EAE5;
     font-weight: bold;
 }
+ul li a:hover{
+    color: #000000;
+}
 
 .logo_h1 {
     font-size: 18px;
