@@ -4,6 +4,7 @@
     <list default="true" id="d586e365-4c0b-4323-ab6f-713dc97dea34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-bertrand.css" beforeDir="false" afterPath="$PROJECT_DIR$/style-bertrand.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <workItem from="1682944273051" duration="585000" />
       <workItem from="1682954251698" duration="602000" />
       <workItem from="1682955307946" duration="253000" />
-      <workItem from="1683009289852" duration="118000" />
+      <workItem from="1683009289852" duration="1169000" />
     </task>
     <servers />
   </component>
