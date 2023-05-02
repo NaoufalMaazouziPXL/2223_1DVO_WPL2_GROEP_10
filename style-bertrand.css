@@ -1,0 +1,166 @@
+/* Bertrand */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cocogoose Condensed Trial", sans-serif;
+}
+
+body {
+    background-color: #1ACD77;
+}
+/* NAV */
+.navbar{
+    background-color: #1ACD77;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E6EAE5;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #000000;
+}
+
+.logo_h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.bg-color {
+    background-color: #1ACD77;
+    color: #ffff;
+}
+/* HEADER*/
+.header_h1 h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+.header_h1 p{
+    font-family: "Inter Semi Bold", sans-serif;
+}
+.header-p{
+    font-family: "Inter Medium", serif;
+    color: #ffffff;
+}
+.button {
+    color: #1ACD77;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+/* MAIN */
+.bg-color-2{
+    background-color: #ffffff;
+}
+.img-fluid_2 {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.button_2 {
+    color: #ffffff;
+    background-color: #1ACD77;
+    border: 1px solid #1ACD77;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.button_2:hover{
+    background-color: #000000;
+    color: #1ACD77;
+    border: 1px solid #000000;
+}
+
+.main-header h1 {
+    font-weight: bold;
+    color: #1ACD77;
+}
+.text-p{
+    font-family: "Inter Medium",sans-serif;
+    color: #000000;
+}
+.app_h1 h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.img-fluid_3{
+    width: 160px;
+    height: 50px;
+}
+
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+        color: #ffffff;
+    }
+    .navbar-collapse{
+        background-color: #1ACD77;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    li a{
+        font-size: 30px;
+    }
+    li a img{
+        width: 40px;
+    }
+    header{
+        padding-top: 100px;
+    }
+    #main_formulier{
+        padding-top: 100px;
+    }
+}
+
+
+
+/* --- CONTACT_PAGINA --- */
+.contacteer-ons{
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+.map{
+    border: 1px solid transparent;
+    border-radius: 25px 0 0 25px;
+    z-index: 1;
+}
+
+.input{
+    border-bottom: 2px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+::placeholder{
+    color: #000000;
+    opacity: 100%;
+}
