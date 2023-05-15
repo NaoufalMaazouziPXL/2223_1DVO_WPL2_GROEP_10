@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d586e365-4c0b-4323-ab6f-713dc97dea34" name="Changes" comment="" />
+    <list default="true" id="d586e365-4c0b-4323-ab6f-713dc97dea34" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-pagina-bertrand.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-pagina-bertrand.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/bertr/Documents/PXL/Webstorm/PORTFOLIO SEMESTER 2",
+    "last_opened_file_path": "C:/Users/bertr/Documents/PXL/Webstorm/GitHub/2223_1DVO_WPL2_GROEP_10",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -58,7 +61,13 @@
       <workItem from="1683009289852" duration="6725000" />
       <workItem from="1683030714212" duration="83000" />
       <workItem from="1683286444667" duration="75000" />
-      <workItem from="1683535392514" duration="5663000" />
+      <workItem from="1683535392514" duration="6434000" />
+      <workItem from="1683554375997" duration="915000" />
+      <workItem from="1683558574673" duration="1661000" />
+      <workItem from="1683614096631" duration="620000" />
+      <workItem from="1683633274217" duration="2226000" />
+      <workItem from="1683640130309" duration="2544000" />
+      <workItem from="1684127496829" duration="598000" />
     </task>
     <servers />
   </component>
