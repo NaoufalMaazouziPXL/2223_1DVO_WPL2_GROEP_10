@@ -5,7 +5,7 @@ button.btn-success {
     font-weight: bold;
     border-width: 3px;
     margin-top: 10px;
-    padding: 5px 104px 5px 104px;
+    padding: 5px 0 5px 0;
     width: 100%;
 }
 
@@ -17,7 +17,7 @@ button.btn-secondary {
     border-width: 3px;
     font-weight: bold;
     margin-top: 10px;
-    padding: 5px 130px 5px 130px;
+    padding: 5px 0 5px 0;
     width: 100%;
 }
 
