@@ -3,7 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Cocogoose Condensed Trial", sans-serif;
+    font-family: "Cocogoose Narrow", sans-serif;
+}
+
+@font-face {
+    font-family: 'Cocogoose-Narrow';
+    src: url('assets/cocogoose/Cocogoose-Narrow/Cocogoose-Narrow-Regular-trial.ttf');
 }
 
 body {
@@ -12,6 +17,11 @@ body {
 /* NAV */
 .navbar{
     background-color: #1ACD77;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
 }
 
 .navbar-nav {
@@ -24,11 +34,12 @@ ul li a {
     font-weight: bold;
 }
 ul li a:hover{
-    color: #000000;
+    color: #1c8536;
 }
 
 .logo_h1 {
     font-family: Inter, sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: white;
 }
@@ -38,10 +49,12 @@ ul li a:hover{
     color: #ffff;
 }
 /* HEADER*/
+
 .header_h1 h1 {
+    font-family: Cocogoose-Narrow, sans-serif;
     font-size: 80px;
-    font-weight: bold;
 }
+
 .header_h1 p{
     font-family: "Inter Semi Bold", sans-serif;
 }
@@ -71,7 +84,7 @@ ul li a:hover{
     background-color: #ffffff;
 }
 .img-fluid_2 {
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 30px;
 }
@@ -91,7 +104,7 @@ ul li a:hover{
 }
 
 .main-header h1 {
-    font-weight: bold;
+    font-family: Cocogoose-Narrow, sans-serif;
     color: #1ACD77;
 }
 .text-p{
@@ -99,12 +112,15 @@ ul li a:hover{
     color: #000000;
 }
 .app_h1 h1{
+    font-family: Cocogoose-Narrow, sans-serif;
     font-size: 70px;
-    font-weight: bold;
 }
 .img-fluid_3{
     width: 160px;
     height: 50px;
+}
+.mockup{
+    width: 500px;
 }
 
 @media (max-width: 992px){
