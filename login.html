@@ -22,10 +22,10 @@
                 <h2>Log In</h2>
                 <p>Welkom terug! Meld je eigen aan.</p>
                 <form action="https://formspree.io/f/moqzrdlp" method="POST" enctype="application/x-www-form-urlencoded">
-                    <label for="fname"></label><br>
-                    <input type="text" id="fname" name="fname" value="Email"><br>
-                    <label for="lname"></label><br>
-                    <input type="text" id="lname" name="lname" value="Wachtwoord"><br><br>
+                    <label for="email"></label><br>
+                    <input type="email" onfocus="this.value=''"  id="email" name="email" value="Email"><br>
+                    <label for="pass"></label><br>
+                    <input type="password" onfocus="this.value=''"  id="pass" name="pass" value="Wachtwoord"><br><br>
                     <input id="log-button" type="submit" value="Log In">
                 </form>
                 <p>Heb je nog geen account? <a href="register.html">Creëer account</a></p>
