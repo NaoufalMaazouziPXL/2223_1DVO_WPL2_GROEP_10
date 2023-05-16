@@ -169,3 +169,7 @@ form select {
 .form-container-avatar {
     margin-top: 50px;
 }
+
+input:focus {
+    outline: none;
+}
