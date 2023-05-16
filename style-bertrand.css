@@ -188,3 +188,20 @@ ul li a:hover{
     color: #000000;
     opacity: 100%;
 }
+
+/* --- about us pagina --- */
+
+.about-icon{
+    color: #ffffff;
+}
+
+.img-fluid_4{
+    width: 80%;
+    height: auto;
+}
+
+h2{
+    font-family: Cocogoose-Narrow, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
