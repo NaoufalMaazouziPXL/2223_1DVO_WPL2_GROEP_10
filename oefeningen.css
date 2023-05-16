@@ -1,7 +1,27 @@
 * {
     font-family: Inter,sans-serif;
 }
+.navbar{
+    background-color: #1ACD77;
+}
 
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E6EAE5;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #000000;
+}
+.rise-up {
+    font-family: "Cocogoose Condensed Trial", sans-serif;
+    color: white;
+    font-size: large;
+}
 
 .btn {
     border: 2px solid #1ACD77;
@@ -10,9 +30,13 @@
 
 }
 
+
 .btn:hover {
     background-color: #1ACD77;
     color: white;
+}
+.btn-div {
+    margin-top: 100px;
 }
 .profiel {
     width: 60px;
@@ -30,6 +54,42 @@
     font-size: 1.8rem;
     font-weight: bold;
 }
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+        color: #ffffff;
+    }
+    .navbar-collapse{
+        background-color: #1ACD77;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    li a{
+        font-size: 30px;
+    }
+    li a img{
+        width: 40px;
+    }
+    header{
+        padding-top: 40px;
+    }
+    #main_formulier{
+        padding-top: 100px;
+    }
+}
+
+
+
 @media (max-width: 767px) {
     .btn-group {
         display: flex;
@@ -83,7 +143,5 @@
     }
     .profiel {
         width: 20%;
-    }
-    .card-title {
     }
 }
