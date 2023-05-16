@@ -70,6 +70,14 @@ ul li a:hover{
     font-size: 14px;
     font-weight: bold;
 }
+.button1 {
+    color: #1ACD77;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
 .button:hover{
     background-color: #000000;
     border: 1px solid #000000;
