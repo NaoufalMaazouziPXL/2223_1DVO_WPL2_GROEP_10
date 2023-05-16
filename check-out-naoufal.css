@@ -91,5 +91,12 @@ ul li a:hover{
 .card {
     display: flex;
     justify-content: flex-end;
-    height: 80vh;
+    height: 70vh;
+    width: 18rem;
+    border-style: none !important;
+    border-radius: 10%;
+}
+
+.card-title {
+    font-weight: bold;
 }
