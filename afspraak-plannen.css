@@ -60,3 +60,77 @@ div.modal-content {
     border-radius: 12px;
     border: 0 solid;
 }
+
+.forum {
+    margin-top: 190px;
+}
+
+
+/* NAV */
+.navbar{
+    background-color: #1ACD77;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E6EAE5;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #1c8536;
+}
+
+.logo_h1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.bg-color {
+    background-color: #1ACD77;
+    color: #ffff;
+}
+
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+        color: #ffffff;
+    }
+    .navbar-collapse{
+        background-color: #1ACD77;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    li a{
+        font-size: 30px;
+    }
+    li a img{
+        width: 40px;
+    }
+    header{
+        padding-top: 100px;
+    }
+    #main_formulier{
+        padding-top: 100px;
+    }
+}
