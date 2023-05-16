@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oefeningen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <script src="afspraak-plannen.js"></script>
+    <link rel="stylesheet" href="afspraak-plannen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container mt-5">
+    <form id="afspraak-form">
+        <div class="form-group">
+            <label for="datum">Datum</label>
+            <input type="date" class="form-control" id="datum" required>
+        </div>
+        <div class="form-group">
+            <label for="tijd">Tijd</label>
+            <input type="time" class="form-control" id="tijd" required>
+        </div>
+        <div class="form-group">
+            <label for="reden">Reden</label>
+            <input type="text" class="form-control" id="reden" required>
+        </div>
+        <div class="form-group">
+            <label for="beschrijving">Beschrijving</label>
+            <textarea class="form-control" id="beschrijving" rows="3" ></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Plan afspraak</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+    </form>
+</div>
+
+
+
+<!-- Pop-up -->
+<div class="modal fade" id="afspraak-modal" tabindex="-1" role="dialog" aria-labelledby="afspraak-modal-label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-success" id="afspraak-modal-label">Uw afspraak is succesvol ingepland tot binnenkort</h5>
+            </div>
+            <div class="modal-body">
+                <p>Bedankt voor het maken van een afspraak! Uw afspraak is succesvol ingepland op 15 augustus om 14:00 uur op onze locatie in Brussel op de Grote Markt 1. Wij kijken uit naar uw komst. Een bevestiging van de afspraak is naar uw e-mail gestuurd. Tot ziens!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Bevestigen</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuleer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#afspraak-form').submit(function(event) {
+            event.preventDefault();
+            $('#afspraak-modal').modal('show');
+        });
+    });
+</script>
+</body>
+</html>
