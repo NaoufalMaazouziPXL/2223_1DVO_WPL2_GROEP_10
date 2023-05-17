@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Cocogoose Narrow", sans-serif;
+    font-family: Inter, sans-serif;;
 }
 
 @font-face {
@@ -138,3 +138,32 @@ ul li a:hover{
     outline: 0;
     display: none;
 }
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.right-content h2 {
+    margin-top: 0;
+}
+
+.order-box img {
+    height: 250px;
+    width: 250px;
+}
+
+.bestelling-container h2 {
+    font-family: Cocogoose-Narrow, sans-serif;
+    color: #1ACD77;
+}
+
+.bestelling-container p {
+    width: 60%;
+}
+
+.bestelling-container button {
+    width: 60%;
+}
+
