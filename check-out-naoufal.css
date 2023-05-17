@@ -1,4 +1,3 @@
-/* Bertrand */
 * {
     margin: 0;
     padding: 0;
@@ -163,3 +162,6 @@ ul li a:hover{
     width: 60%;
 }
 
+.custom-height {
+    height: 80vh;
+}
