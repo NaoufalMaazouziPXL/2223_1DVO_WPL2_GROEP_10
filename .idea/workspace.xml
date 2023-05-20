@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d586e365-4c0b-4323-ab6f-713dc97dea34" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2023_14_50__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2023_14_50__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abous_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/abous_us.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +90,7 @@
       <workItem from="1684154990727" duration="709000" />
       <workItem from="1684155752907" duration="5889000" />
       <workItem from="1684162051623" duration="15277000" />
-      <workItem from="1684563229215" duration="1260000" />
+      <workItem from="1684563229215" duration="1543000" />
     </task>
     <servers />
   </component>
