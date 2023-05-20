@@ -54,26 +54,24 @@ ul li a:hover{
 }
 
 .btn-primary {
-    color: #1ACD77;
-    background-color: transparent;
-    border-color: #1ACD77;
+    color: #1ACD77 !important;
+    background-color: transparent !important;
+    border-color: #1ACD77 !important;
 }
 
 .btn-secondary {
-    color: white;
-    background-color: #1ACD77;
-    border-color: #1ACD77;
-}
-
-.btn-primary:hover {
+    color: white !important;
     background-color: #1ACD77 !important;
     border-color: #1ACD77 !important;
 }
 
+
 .btn-primary:hover {
     background-color: #1ACD77 !important;
     border-color: #1ACD77 !important;
+    color: white !important;
 }
+
 
 .btn-secondary:hover {
     color: #1ACD77 !important;
@@ -84,16 +82,6 @@ ul li a:hover{
 .thick-green {
     font-weight: bold;
     color: #1ACD77;
-}
-
-
-.card {
-    display: flex;
-    justify-content: flex-end;
-    height: 70vh;
-    width: 18rem;
-    border-style: none !important;
-    border-radius: 10%;
 }
 
 .card-title {
@@ -162,6 +150,13 @@ ul li a:hover{
     width: 60%;
 }
 
-.custom-height {
-    height: 80vh;
+.card {
+    border: none !important;
+    border-radius: 25% !important;
+}
+
+.card
+
+.container-center {
+    margin-top: 20vh !important;
 }
