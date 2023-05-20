@@ -70,6 +70,14 @@ ul li a:hover{
     font-size: 14px;
     font-weight: bold;
 }
+.button1 {
+    color: #1ACD77;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
 .button:hover{
     background-color: #000000;
     border: 1px solid #000000;
@@ -179,4 +187,21 @@ ul li a:hover{
 ::placeholder{
     color: #000000;
     opacity: 100%;
+}
+
+/* --- about us pagina --- */
+
+.about-icon{
+    color: #ffffff;
+}
+
+.img-fluid_4{
+    width: 80%;
+    height: auto;
+}
+
+h2{
+    font-family: Cocogoose-Narrow, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
