@@ -134,3 +134,11 @@ ul li a:hover{
         padding-top: 100px;
     }
 }
+
+@media (min-width: 992px) {
+    .forum .container {
+        max-width: 500px; }
+}
+
+
+
