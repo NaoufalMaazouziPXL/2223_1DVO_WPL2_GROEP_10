@@ -63,6 +63,7 @@ div.modal-content {
 
 .forum {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -138,6 +139,11 @@ ul li a:hover{
     #main_formulier{
         padding-top: 100px;
     }
+    .forum {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -151,3 +157,19 @@ ul li a:hover{
     }
 }
 
+
+div#afspraak-modal{
+    padding-top: 150px;
+}
+
+p{
+    font-weight: 600;
+}
+
+i{
+    color: #000000;
+}
+
+div.container.py-2{
+    margin-top: 200px;
+}
