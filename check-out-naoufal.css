@@ -104,9 +104,8 @@ ul li a:hover{
 }
 
 .input-box-modal {
-    background-color: #FAFAFA;
-
-    border-color: white;
+    background-color: #f1f1f1;
+    border: none !important;
 }
 
 .modal {
@@ -124,6 +123,7 @@ ul li a:hover{
     overflow-y: auto;
     outline: 0;
     display: none;
+    border: none !important;
 }
 
 .center-content {
@@ -150,13 +150,23 @@ ul li a:hover{
     width: 60%;
 }
 
+button, input {
+    border-radius: 9px;
+}
+
 .card {
     border: none !important;
     border-radius: 25% !important;
 }
 
-.card
+#submitButtonNames, #opslaanButton {
+    width: 100%;
+    font-weight: bold;
+}
+
+
+
 
 .container-center {
-    margin-top: 20vh !important;
+    margin-top: 15vh !important;
 }
