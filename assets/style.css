@@ -36,7 +36,7 @@ a {
     text-decoration: none;
 }
 
-.logo a {
+.logo h1 {
     font-size: 25px;
     margin-top: 5px;
     margin-left: 15px;
@@ -89,42 +89,8 @@ form select {
 .avatar-circle {
     height: 150px;
     width: 150px;
+    background-color: white;
     border-radius: 50%;
-}
-
-.avatar-circle-1 {
-    background-image: url("avatar1.png");
-    background-size: cover;
-}
-
-.avatar-circle-2 {
-    background-image: url("avatar2.png");
-    background-size: cover;
-}
-
-.avatar-circle-3 {
-    background-image: url("avatar3.png");
-    background-size: cover;
-}
-
-.avatar-circle-4 {
-    background-image: url("avatar4.png");
-    background-size: cover;
-}
-
-.avatar-circle-5 {
-    background-image: url("avatar5.png");
-    background-size: cover;
-}
-
-.avatar-circle-6 {
-    background-image: url("avatar6.png");
-    background-size: cover;
-}
-
-.avatar-circle-7 {
-    background-image: url("avatar-7.png");
-    background-size: cover;
 }
 
 
@@ -148,28 +114,8 @@ form select {
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    padding-right: 3rem;
 }
 
 .avatar-box {
     margin-top: 100px;
-}
-
-@media only screen and (max-width: 414px) {
-    form {
-        margin-top: 30%;
-        margin-bottom: 30%;
-    }
-
-    .log-in-field h2 {
-        font-size: 30pt;
-    }
-}
-
-.form-container-avatar {
-    margin-top: 50px;
-}
-
-input:focus {
-    outline: none;
 }

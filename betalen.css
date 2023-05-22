@@ -1,14 +1,25 @@
+@font-face {
+    font-family: 'Cocogoose-Narrow';
+    src: url('assets/cocogoose/Cocogoose-Narrow/Cocogoose-Narrow-Regular-trial.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Inter', sans-serif; */
-    font-family: 'Cocogoose condensed Trial', sans-serif;
+    font-family: "Cocogoose Narrow", sans-serif;
 }
 
+
 /* NAV */
+/* Nav moet wit & logo zwart */
 .navbar{
     background-color: #1ACD77;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
 }
 
 .navbar-nav {
@@ -21,12 +32,12 @@ ul li a {
     font-weight: bold;
 }
 ul li a:hover{
-    color: #000000;
-
+    color: #1c8536;
 }
 
 .logo_h1 {
     font-family: Inter, sans-serif;
+    font-weight: bold;
     font-size: 20px;
     color: white;
 }
@@ -35,6 +46,8 @@ ul li a:hover{
     background-color: #1ACD77;
     color: #ffff;
 }
+
+
 
 @media (max-width: 992px){
     .navbar{
@@ -64,18 +77,19 @@ ul li a:hover{
     }
 }
 
-
-
-
-
-
-
-
-
-
-/* Footer */
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+/* Betalen 1 pagina */
+.marginTopBetalen1 {
+    margin-top: 10rem;
+}
+.imgGrootte {
+    width: auto;
+    height: 150px;
+}
+.achtergrondVerder {
+    color: #1ACD77;
+    border: 1px solid #1ACD77;
+}
+.achtergrondBestellen {
+    background-color: #1ACD77;
+    color: #ffffff;
+}
