@@ -83,11 +83,20 @@ ul li a:hover{
 .bg-color-2{
     background-color: #ffffff;
 }
+.bg-color-3{
+    background-color: #FAFAFA;
+}
 .img-fluid_2 {
-    width: 60%;
+    width: 80%;
     height: auto;
     border-radius: 30px;
 }
+.img-fluid_2\.2 {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+
 
 .button_2 {
     color: #ffffff;
@@ -165,8 +174,26 @@ ul li a:hover{
     header{
         padding-top: 100px;
     }
+    .header_h1 h1{
+        font-size: 40px;
+    }
+    .img-fluid_2{
+        width: 40%;
+        height: auto;
+    }
+    .img-fluid_2\.2{
+        width: 100%;
+        height: auto;
+    }
     #main_formulier{
         padding-top: 100px;
+    }
+    .app_h1 h1{
+        font-size: 40px;
+    }
+    .img-fluid_3{
+        width: 40%;
+        height: auto;
     }
 }
 
@@ -210,4 +237,19 @@ img-fluid-3{
 .form-control{
     width: 40px;
     height: 30px;
+}
+.input{
+    border: 0px solid transparent;
+    border-radius: 20px;
+    background-color: #F3F3F3;
+}
+.button_3{
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+.fa-solid-2{
+    color: #E6EAE5;
+}
+.text-p-2{
+    font-weight: bold;
 }
