@@ -1,0 +1,234 @@
+/* Afspraken Pagina */
+
+* {
+    font-family: Inter,sans-serif;
+}
+.navbar{
+    background-color: #1ACD77;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #1c8536;
+}
+
+.logo_h1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.bg-color {
+    background-color: #1ACD77;
+    color: #22c573;
+}
+
+.btn {
+    border: 2px solid #ffffff;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #1ACD77;
+}
+
+.btn-div {
+    margin-top: 100px;
+}
+.profiel {
+    width: 60px;
+}
+.card-title {
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card-title:hover {
+    color: #1ACD77;
+}
+.card-title:active {
+    color: #1ACD77;
+}
+
+.undertitle {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.bigtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .btn-group {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .btn {
+        flex: 0 0 auto;
+        margin-right: 1rem;
+    }
+    .row.row-cols-md-4 {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .col {
+        flex: 0 0 auto;
+        width: auto;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+        color: #ffffff;
+    }
+    .navbar-collapse{
+        background-color: #1ACD77;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    li a{
+        font-size: 30px;
+    }
+    li a img{
+        width: 40px;
+    }
+    header{
+        padding-top: 40px;
+    }
+    #main_formulier{
+        padding-top: 100px;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .btn-group {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .btn {
+        flex: 0 0 auto;
+        margin-right: 1rem;
+    }
+    .row.row-cols-md-4 {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .col {
+        flex: 0 0 auto;
+        width: auto;
+        margin-right: 1rem;
+    }
+    .profiel {
+        width: 30%;
+    }
+}
+
+
+body{
+    background-color: #1ACD77;
+}
+
+.btn-div {
+    justify-content: center;
+}
+
+footer{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+i{
+    color: #ffffff;
+}
+
+/* */
+
+.rounded, div.col-4{
+    border-radius: 8px !important;
+
+}
+
+div.col-4{
+    border-radius: 8px 0 8px 0;
+}
+
+
+
+h1.text-white{
+    margin-top: 80px;
+    font-weight: 800;
+}
+
+.col-12.d-flex.btn-div{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.col-4.col-md-6.bg-light{
+    padding-left: 0;
+}
+
+.bg-light{
+    background-color: #ffffff !important;
+}
+
+img{
+    border-radius: 8px 0 0 8px;
+}
+.tekstGrootte{
+    font-weight: 700;
+    color: #000000;
+}
+
+.tekstGrootePrijs{
+    font-size: 0.8rem;
+    color: #A3A3A3;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 50px;
+}
+

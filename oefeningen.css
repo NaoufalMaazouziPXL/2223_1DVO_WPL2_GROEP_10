@@ -10,6 +10,41 @@
 
 }
 
+.navbar{
+    background-color: #1ACD77;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E6EAE5;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #1c8536;
+}
+
+.logo_h1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.bg-color {
+    background-color: #1ACD77;
+    color: #ffff;
+}
+
+
 .btn:hover {
     background-color: #1ACD77;
     color: white;
