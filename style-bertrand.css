@@ -129,6 +129,9 @@ ul li a:hover{
 .fa-brands {
     color: #ffffff;
 }
+.fa-brands-2 {
+    color: black;
+}
 
 @media (max-width: 992px){
     .navbar{
