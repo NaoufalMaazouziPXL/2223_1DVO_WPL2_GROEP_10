@@ -1,39 +1,7 @@
 * {
     font-family: Inter,sans-serif;
 }
-.navbar{
-    background-color: #1ACD77;
-}
 
-.navbar-brand{
-    width: 100%;
-    height: auto;
-}
-
-.navbar-nav {
-    list-style-type: none;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #E6EAE5;
-    font-weight: bold;
-}
-ul li a:hover{
-    color: #1c8536;
-}
-
-.logo_h1 {
-    font-family: Inter, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-}
-
-.bg-color {
-    background-color: #1ACD77;
-    color: #ffff;
-}
 
 .btn {
     border: 2px solid #1ACD77;
@@ -42,14 +10,9 @@ ul li a:hover{
 
 }
 
-
 .btn:hover {
     background-color: #1ACD77;
     color: white;
-}
-
-.btn-div {
-    margin-top: 100px;
 }
 .profiel {
     width: 60px;
@@ -57,16 +20,7 @@ ul li a:hover{
 .card-title {
     font-size: 0.85rem;
     font-weight: bold;
-    text-decoration: none;
-    color: black;
 }
-.card-title:hover {
-    color: #1ACD77;
-}
-.card-title:active {
-    color: #1ACD77;
-}
-
 .undertitle {
     font-size: 0.7rem;
     font-weight: bold;
@@ -87,53 +41,7 @@ ul li a:hover{
         flex: 0 0 auto;
         margin-right: 1rem;
     }
-    .row.row-cols-md-4 {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-    .col {
-        flex: 0 0 auto;
-        width: auto;
-        margin-right: 1rem;
-    }
 }
-@media (max-width: 992px){
-    .navbar{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1;
-
-    }
-    .navbar-toggler{
-        color: #ffffff;
-    }
-    .navbar-collapse{
-        background-color: #1ACD77;
-        padding: 10px;
-    }
-    .navbar-nav{
-        display: none;
-        height: 1200px;
-    }
-    li a{
-        font-size: 30px;
-    }
-    li a img{
-        width: 40px;
-    }
-    header{
-        padding-top: 40px;
-    }
-    #main_formulier{
-        padding-top: 100px;
-    }
-}
-
-
-
-
 @media (max-width: 1024px) {
     .btn-group {
         display: flex;
@@ -145,6 +53,24 @@ ul li a:hover{
         flex: 0 0 auto;
         margin-right: 1rem;
     }
+    .profiel {
+        width: 20%;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .row.row-cols-md-4 {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .col {
+        flex: 0 0 auto;
+        width: auto;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 1024px) {
     .row.row-cols-md-4 {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -156,7 +82,8 @@ ul li a:hover{
         margin-right: 1rem;
     }
     .profiel {
-        width: 30%;
+        width: 20%;
+    }
+    .card-title {
     }
 }
-

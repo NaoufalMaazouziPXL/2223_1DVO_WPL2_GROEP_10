@@ -1,0 +1,177 @@
+button.btn-success {
+    background-color: #1ACD77;
+    border-color: #1ACD77;
+    border-radius: 9px;
+    font-weight: bold;
+    border-width: 3px;
+    margin-top: 10px;
+    padding: 5px 0 5px 0;
+    width: 100%;
+}
+
+button.btn-secondary {
+    background-color: #ffffff;
+    color: #1ACD77;
+    border-color: #1ACD77;
+    border-radius: 9px;
+    border-width: 3px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 0 5px 0;
+    width: 100%;
+}
+
+button.btn-secondary:hover {
+    background-color: #1ACD77;
+    color: #ffffff;
+    border-color: #1ACD77;
+    border-radius: 9px;
+    border-width: 3px;
+    font-weight: bold;
+}
+
+label{
+    font-weight: 450;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border: 0;
+    background-color: #f1f1f1;
+    font-weight: 450;
+}
+
+p{
+    text-align: center;
+}
+
+.text-success{
+    font-family: Inter;
+    font-weight: bold;
+    color: #1ACD77!important;
+    text-align: center;
+}
+
+div.modal-content {
+    border-radius: 12px;
+    border: 0 solid;
+}
+
+.forum {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* NAV */
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #1c8536;
+}
+
+.logo_h1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.bg-color {
+    background-color: #1ACD77;
+    color: #ffff;
+}
+
+.fixed-button {
+    width: 12rem;
+}
+
+
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+        color: #ffffff;
+    }
+    .navbar-collapse{
+        background-color: #1ACD77;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    li a{
+        font-size: 30px;
+    }
+    li a img{
+        width: 40px;
+    }
+    header{
+        padding-top: 100px;
+    }
+    #main_formulier{
+        padding-top: 100px;
+    }
+    .forum {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .forum .container {
+        max-width: 500px; }
+
+    .mt-5 {
+        border-radius: 20px;
+        padding: 30px;
+        background-color: #FAFAFA;
+    }
+}
+
+
+div#afspraak-modal{
+    padding-top: 150px;
+}
+
+p{
+    font-weight: 600;
+}
+
+i{
+    color: #000000;
+}
+
+div.container.py-2{
+    margin-top: 200px;
+}
+
+

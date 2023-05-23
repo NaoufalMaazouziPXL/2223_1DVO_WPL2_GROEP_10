@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;;
+}
+
+@font-face {
+    font-family: 'Cocogoose-Narrow';
+    src: url('assets/cocogoose/Cocogoose-Narrow/Cocogoose-Narrow-Regular-trial.ttf');
+}
+
+body {
+    background-color: #fff;
+    color: black;
+}
+/* NAV */
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #1c8536;
+}
+
+.logo_h1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.bg-color {
+    background-color: #1ACD77;
+    color: #ffff;
+}
+
+.fixed-button {
+    width: 12rem;
+}
+
+.btn-primary {
+    color: #1ACD77 !important;
+    background-color: transparent !important;
+    border-color: #1ACD77 !important;
+}
+
+.btn-secondary {
+    color: white !important;
+    background-color: #1ACD77 !important;
+    border-color: #1ACD77 !important;
+}
+
+
+.btn-primary:hover {
+    background-color: #1ACD77 !important;
+    border-color: #1ACD77 !important;
+    color: white !important;
+}
+
+
+.btn-secondary:hover {
+    color: #1ACD77 !important;
+    background-color: white !important;
+    border-color: #1ACD77 !important;
+}
+
+.thick-green {
+    font-weight: bold;
+    color: #1ACD77;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.modal {
+    display: inline-block;
+}
+
+.square-button {
+    width: 125px;
+    height: 125px;
+
+    color: black;
+    border-color: white;
+    background-color: #FAFAFA;
+
+    font-weight: bold;
+}
+
+.input-box-modal {
+    background-color: #f1f1f1;
+    border: none !important;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-lever {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1061;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    display: none;
+    border: none !important;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.right-content h2 {
+    margin-top: 0;
+}
+
+.order-box img {
+    height: 250px;
+    width: 250px;
+}
+
+.bestelling-container h2 {
+    font-family: Cocogoose-Narrow, sans-serif;
+    color: #1ACD77;
+}
+
+.bestelling-container button {
+    width: 60%;
+}
+
+button, input {
+    border-radius: 9px;
+}
+
+.card {
+    border: none !important;
+    border-radius: 25% !important;
+}
+
+#submitButtonNames, #opslaanButton {
+    width: 100%;
+    font-weight: bold;
+}
+
+
+
+.container-center {
+    margin-top: 15vh !important;
+}
