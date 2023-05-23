@@ -1,0 +1,11 @@
+body {
+    background-color: #1acd77 !important;
+}
+
+.col-lg-3,
+.col-lg-9 {
+    height: 350px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
