@@ -84,10 +84,16 @@ ul li a:hover{
     background-color: #ffffff;
 }
 .img-fluid_2 {
-    width: 60%;
+    width: 80%;
     height: auto;
     border-radius: 30px;
 }
+.img-fluid_2\.2 {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+}
+
 
 .button_2 {
     color: #ffffff;
@@ -165,8 +171,26 @@ ul li a:hover{
     header{
         padding-top: 100px;
     }
+    .header_h1 h1{
+        font-size: 40px;
+    }
+    .img-fluid_2{
+        width: 40%;
+        height: auto;
+    }
+    .img-fluid_2\.2{
+        width: 100%;
+        height: auto;
+    }
     #main_formulier{
         padding-top: 100px;
+    }
+    .app_h1 h1{
+        font-size: 40px;
+    }
+    .img-fluid_3{
+        width: 40%;
+        height: auto;
     }
 }
 
