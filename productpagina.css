@@ -5,6 +5,9 @@
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Cocogoose condensed Trial', sans-serif;
 }
+h6, main .container a, option, label, p {
+    font-family: Inter, sans-serif;
+}
 
 
 /* NAV */
@@ -93,7 +96,7 @@ footer img {
 }
 
   .tekstGrootte {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .tekstGrootePrijs {
     font-size: 1.5rem;
