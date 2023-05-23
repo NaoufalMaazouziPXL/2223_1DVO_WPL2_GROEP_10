@@ -2,14 +2,11 @@
     font-family: Inter,sans-serif;
 }
 
-
-.btn {
-    border: 2px solid #1ACD77;
-    font-weight: bold;
-    color: #1ACD77;
-
+.container2 {
+    margin-top: 10%;
 }
 
+/* NAV */
 .navbar{
     background-color: #1ACD77;
 }
@@ -44,11 +41,20 @@ ul li a:hover{
     color: #ffff;
 }
 
+/* BUTTON */
+.btn {
+    border: 2px solid #1ACD77;
+    font-weight: bold;
+    color: #1ACD77;
+
+}
 
 .btn:hover {
     background-color: #1ACD77;
     color: white;
 }
+
+/* CARD */
 .profiel {
     width: 60px;
 }
@@ -59,12 +65,25 @@ ul li a:hover{
 .undertitle {
     font-size: 0.7rem;
     font-weight: bold;
-    color: #a9a9a9;
+    color: #bdbdbd;
 }
 .bigtitle {
     font-size: 1.8rem;
     font-weight: bold;
 }
+
+/* FOOTER */
+.bg-color {
+    background-color: #1ACD77;
+    color: white;
+}
+.fa-brands {
+    color: white;
+}
+.fa-brands:hover {
+    color: black;
+}
+
 @media (max-width: 767px) {
     .btn-group {
         display: flex;
@@ -76,6 +95,15 @@ ul li a:hover{
         flex: 0 0 auto;
         margin-right: 1rem;
     }
+    .row.row-cols-md-4 {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .col {
+        flex: 0 0 auto;
+        width: auto;
+        margin-right: 1rem;
+    }
 }
 @media (max-width: 1024px) {
     .btn-group {
@@ -88,24 +116,6 @@ ul li a:hover{
         flex: 0 0 auto;
         margin-right: 1rem;
     }
-    .profiel {
-        width: 20%;
-
-    }
-}
-
-@media (max-width: 767px) {
-    .row.row-cols-md-4 {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-    .col {
-        flex: 0 0 auto;
-        width: auto;
-        margin-right: 1rem;
-    }
-}
-@media (max-width: 1024px) {
     .row.row-cols-md-4 {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -116,9 +126,6 @@ ul li a:hover{
         width: auto;
         margin-right: 1rem;
     }
-    .profiel {
-        width: 20%;
-    }
-    .card-title {
-    }
 }
+
+
