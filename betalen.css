@@ -83,6 +83,11 @@ ul li a:hover{
 }
 .imgGrootte {
     width: auto;
+    height: 100px;
+}
+
+.imgGrootte3 {
+    width: auto;
     height: 150px;
 }
 .achtergrondVerder {
@@ -92,4 +97,8 @@ ul li a:hover{
 .achtergrondBestellen {
     background-color: #1ACD77;
     color: #ffffff;
+}
+/* main */
+.geld p{
+    font-size: 16px;
 }

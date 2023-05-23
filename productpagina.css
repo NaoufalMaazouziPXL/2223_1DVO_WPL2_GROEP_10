@@ -117,11 +117,10 @@ footer img {
       .prijsGrootte {
         font-size: 5rem;
       }
-
-
-
   }
 
+
+  
   a {
     text-decoration: none;
     color: black;
@@ -130,5 +129,98 @@ footer img {
   .marginTop {
     margin-top: 2.2rem;
   }
+.bg-color {
+    background-color: #1ACD77;
+    color: #22c573;
+}
 
-/* Footer */
+.btn {
+    border: 2px solid #ffffff;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #1ACD77;
+}
+
+.btn-div {
+    margin-top: 100px;
+    justify-content: center;
+}
+.profiel {
+    width: 60px;
+}
+.card-title {
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.card-title:hover {
+    color: #1ACD77;
+}
+.card-title:active {
+    color: #1ACD77;
+}
+
+.undertitle {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.bigtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .btn-group {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .btn {
+        flex: 0 0 auto;
+        margin-right: 1rem;
+    }
+    .row.row-cols-md-4 {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .col {
+        flex: 0 0 auto;
+        width: auto;
+        margin-right: 1rem;
+    }
+}
+@media (max-width: 1024px) {
+    .btn-group {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .btn {
+        flex: 0 0 auto;
+        margin-right: 1rem;
+    }
+    .row.row-cols-md-4 {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .col {
+        flex: 0 0 auto;
+        width: auto;
+        margin-right: 1rem;
+    }
+    .profiel {
+        width: 30%;
+    }
+}
+
+
+
+
