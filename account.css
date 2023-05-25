@@ -92,3 +92,6 @@ p {
     border-radius: 25px;
 }
 
+.modal {
+    display: none;
+}
