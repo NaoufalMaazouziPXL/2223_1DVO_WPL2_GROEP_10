@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="38386a26-8e70-4ad4-b9ff-51fb40d3d961" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abous_us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-pagina-bertrand.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-pagina-bertrand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-betalingen-bert.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-betalingen-bert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afspraak-plannen.html" beforeDir="false" afterPath="$PROJECT_DIR$/afspraak-plannen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afspraken.html" beforeDir="false" afterPath="$PROJECT_DIR$/afspraken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betalen1.html" beforeDir="false" afterPath="$PROJECT_DIR$/betalen1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-out-finished-naoufal.html" beforeDir="false" afterPath="$PROJECT_DIR$/check-out-finished-naoufal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-out-naoufal.html" beforeDir="false" afterPath="$PROJECT_DIR$/check-out-naoufal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oefeningen.html" beforeDir="false" afterPath="$PROJECT_DIR$/oefeningen.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/productSpecifiek.html" beforeDir="false" afterPath="$PROJECT_DIR$/productSpecifiek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-bertrand.css" beforeDir="false" afterPath="$PROJECT_DIR$/style-bertrand.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specifiek_oef.html" beforeDir="false" afterPath="$PROJECT_DIR$/specifiek_oef.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/winkel-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/winkel-pagina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +22,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QI6jKTsLXFTGjmJqISzMZneuzj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/bertr/Documents/PXL/Webstorm/SEMESTER 2/javascript"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/bertr/Documents/PXL/Webstorm/GitHub/2223_1DVO_WPL2_GROEP_10",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38386a26-8e70-4ad4-b9ff-51fb40d3d961" name="Changes" comment="" />
+      <created>1685028881840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685028881840</updated>
+      <workItem from="1685028887902" duration="1015000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
