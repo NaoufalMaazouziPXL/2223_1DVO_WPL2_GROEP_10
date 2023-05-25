@@ -69,3 +69,26 @@ p {
 .afspraak-icon {
     height: 20px;
 }
+
+#progressie-bar-een {
+    height: 10px;
+    width: 350px;
+    background-color: #1acd77;
+    border-radius: 25px;
+}
+
+
+#progressie-bar-twee {
+    height: 10px;
+    width: 100px;
+    background-color: #1acd77;
+    border-radius: 25px;
+}
+
+#progressie-bar-drie {
+    height: 10px;
+    width: 225px;
+    background-color: #1acd77;
+    border-radius: 25px;
+}
+
