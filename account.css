@@ -26,3 +26,14 @@ body {
 #settings-icon {
     height: 30px;
 }
+
+#dashboard-image {
+    height: 13rem;
+}
+
+.rectangle {
+    background-color: #cccccc;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
