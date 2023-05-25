@@ -32,8 +32,25 @@ body {
 }
 
 .rectangle {
-    background-color: #cccccc;
+    background-color: #F9F9F9;
     height: 40px;
     width: 200px;
     border-radius: 10px;
+    display: flex;
+}
+
+.box {
+    background-color: #F9F9F9;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+p {
+    font-weight: bold;
+}
+
+.green-text {
+    color: #1acd77;
 }
