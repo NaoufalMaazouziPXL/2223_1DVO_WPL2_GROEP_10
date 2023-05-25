@@ -9,7 +9,7 @@ body {
     margin-right: 55px;
     margin-top: 15px;
     margin-bottom: 25px;
-    height: 350px;
+    height: 320px;
     background-color: white;
     border-radius: 25px;
 }
@@ -53,4 +53,11 @@ p {
 
 .green-text {
     color: #1acd77;
+}
+
+.afspraak-box {
+    background-color: #F9F9F9;
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
 }
