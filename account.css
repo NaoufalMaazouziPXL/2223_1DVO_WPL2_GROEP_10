@@ -61,3 +61,11 @@ p {
     width: 350px;
     border-radius: 10px;
 }
+
+.profile-picture {
+    height: 60px;
+}
+
+.afspraak-icon {
+    height: 20px;
+}
