@@ -210,15 +210,25 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="d-flex">
+          <img src="assets/nav-arrow-right.svg" class="me-4 mb-2 return-button-left" alt="">
+          <h3>Settings</h3>
+        </div>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
+        <img class="pb-3" src="assets/account-profile.svg" alt="profiel">
+        <div class="input-group flex-nowrap">
+          <input type="text" class="form-control input-box-modal mb-3" placeholder="Naam" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <div class="input-group flex-nowrap">
+          <input type="text" class="form-control input-box-modal mb-3" placeholder="Mail" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+        <div class="input-group flex-nowrap">
+          <input type="text" class="form-control input-box-modal mb-3" placeholder="Nummer" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
