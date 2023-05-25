@@ -1,11 +1,56 @@
+
+
 body {
     background-color: #1acd77 !important;
 }
 
-.col-lg-3,
-.col-lg-9 {
+
+.custom-margin {
+    margin-right: 55px;
+    margin-top: 15px;
+    margin-bottom: 25px;
     height: 350px;
-    width: 10%;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 25px;
+}
+
+.bold {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
+
+#account-profile {
+    height: 100px;
+}
+
+#settings-icon {
+    height: 30px;
+}
+
+#dashboard-image {
+    height: 13rem;
+}
+
+.rectangle {
+    background-color: #F9F9F9;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.box {
+    background-color: #F9F9F9;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+p {
+    font-weight: bold;
+}
+
+.green-text {
+    color: #1acd77;
 }
