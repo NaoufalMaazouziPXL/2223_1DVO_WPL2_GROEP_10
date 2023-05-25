@@ -54,6 +54,10 @@ ul li a:hover{
     font-family: Cocogoose-Narrow, sans-serif;
     font-size: 80px;
 }
+.header_h1 h2 {
+    font-family: Cocogoose-Narrow, sans-serif;
+    font-size: 40px;
+}
 
 .header_h1 p{
     font-family: "Inter Semi Bold", sans-serif;
@@ -84,7 +88,7 @@ ul li a:hover{
     background-color: #ffffff;
 }
 .bg-color-3{
-    background-color: #FAFAFA;
+    background-color: #F3F3F3;
 }
 .img-fluid_2 {
     width: 80%;
