@@ -94,10 +94,32 @@ p {
 
 .modal {
     display: none;
+    border: none !important;
 }
 
 .input-box-modal {
     background-color: #f1f1f1 !important;
     height: 50px !important;
     border: none !important;
+}
+
+.btn-primary {
+    color: white !important;
+    background-color: #1acd77 !important;
+    border-color: transparent !important;
+    width: 100%;
+    font-weight: bold;
+}
+
+.modal-content {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-footer {
+    border-top: none !important;
 }
