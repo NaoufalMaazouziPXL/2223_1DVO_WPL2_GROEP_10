@@ -92,3 +92,12 @@ p {
     border-radius: 25px;
 }
 
+.modal {
+    display: none;
+}
+
+.input-box-modal {
+    background-color: #f1f1f1 !important;
+    height: 50px !important;
+    border: none !important;
+}
