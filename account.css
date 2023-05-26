@@ -9,11 +9,7 @@ body {
     margin-right: 55px;
     margin-top: 15px;
     margin-bottom: 25px;
-<<<<<<< HEAD
-    height: 350px;
-=======
     height: 320px;
->>>>>>> db14dc8ce58ea603c7885778006c08c2500fd29c
     background-color: white;
     border-radius: 25px;
 }
@@ -57,8 +53,6 @@ p {
 
 .green-text {
     color: #1acd77;
-<<<<<<< HEAD
-=======
 }
 
 .afspraak-box {
@@ -128,5 +122,4 @@ p {
 
 .modal-footer {
     border-top: none !important;
->>>>>>> db14dc8ce58ea603c7885778006c08c2500fd29c
 }
