@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="38386a26-8e70-4ad4-b9ff-51fb40d3d961" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afspraak-plannen.html" beforeDir="false" afterPath="$PROJECT_DIR$/afspraak-plannen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/afspraken.html" beforeDir="false" afterPath="$PROJECT_DIR$/afspraken.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betalen1.html" beforeDir="false" afterPath="$PROJECT_DIR$/betalen1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-out-finished-naoufal.html" beforeDir="false" afterPath="$PROJECT_DIR$/check-out-finished-naoufal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-out-naoufal.html" beforeDir="false" afterPath="$PROJECT_DIR$/check-out-naoufal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen.html" beforeDir="false" afterPath="$PROJECT_DIR$/oefeningen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productSpecifiek.html" beforeDir="false" afterPath="$PROJECT_DIR$/productSpecifiek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specifiek_oef.html" beforeDir="false" afterPath="$PROJECT_DIR$/specifiek_oef.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/winkel-pagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/winkel-pagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_us.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-pagina-bertrand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-betalingen-bert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685028881840</updated>
-      <workItem from="1685028887902" duration="1015000" />
+      <workItem from="1685028887902" duration="5995000" />
     </task>
     <servers />
   </component>
