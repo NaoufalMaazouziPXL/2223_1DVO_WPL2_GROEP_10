@@ -23,12 +23,12 @@
       <div class="log-in-field ms-5">
         <h2>Aanmelden</h2>
         <p>Maak nu je eigen account aan!</p>
-        <form action="https://formspree.io/f/moqzrdlp" method="POST" enctype="application/x-www-form-urlencoded">
+        <form onsubmit="signUp()">
           <label for="email"></label><br>
           <input type="email" onfocus="this.value=''"  id="email" name="email" value="Email"><br>
           <label for="pass"></label><br>
           <input type="password" onfocus="this.value=''"  id="pass" name="pass" value="Wachtwoord"><br><br>
-          <input id="log-button" type="submit" value="Creëer account">
+          <input id="log-button" type="submit" onclick="window.location.href='welcome-one.html'" value="Creëer account">
         </form>
         <p id="geen-account">Heb je al een account <a href="login.html">Log in</a></p>
       </div>

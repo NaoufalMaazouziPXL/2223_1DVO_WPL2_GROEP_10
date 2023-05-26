@@ -22,8 +22,7 @@
       <div class="log-in-field ms-5">
         <h2>Welkom, John</h2>
         <p>Waar wil jij aan werken?</p>
-        <form  action="https://formspree.io/f/moqzrdlp" method="POST" enctype="application/x-www-form-urlencoded">
-          <label for="doel"></label>
+        <form onsubmit="event.preventDefault(); window.location.href='welcome-two.html';">          <label for="doel"></label>
           <select id="doel" name="doel">
             <option value="">Wat is je doel?</option>
             <option value="afvallen">Afvallen</option>
@@ -31,7 +30,7 @@
             <option value="voedselplan">Voedselplan</option>
             <option value="algemeen">Algemeen</option>
           </select>
-            <input id="log-button" type="submit" value="Volgende Stap" onclick="location.href='welcome-two.html'">
+            <input onclick="window.location.href='welcome-two.html'" id="log-button" type="submit" value="Volgende Stap">
         </form>
       </div>
     </div>
