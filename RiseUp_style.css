@@ -62,7 +62,7 @@ ul li a:hover{
 .header_h1 p{
     font-family: "Inter Semi Bold", sans-serif;
 }
-.header-p{
+.header-p {
     font-family: "Inter Medium", serif;
     color: #ffffff;
 }
@@ -120,7 +120,7 @@ ul li a:hover{
     font-family: Cocogoose-Narrow, sans-serif;
     color: #1ACD77;
 }
-.text-p{
+.text-p {
     font-family: "Inter Medium",sans-serif;
     color: #000000;
 }
@@ -236,7 +236,7 @@ ul li a:hover{
 
 /* --------DEMO BETALINGEN PAGINA-------*/
 
-img-fluid-3{
+.img-fluid-3{
     width: auto;
     height: 30%;
 }
@@ -259,4 +259,9 @@ img-fluid-3{
 }
 .text-p-2{
     font-weight: bold;
+}
+
+.text-p-3 {
+    font-family: "Inter Medium",sans-serif;
+    color: #ffffff;
 }
