@@ -36,6 +36,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #0f5132;
+}
+
 .logo h1 {
     font-size: 25px;
     margin-top: 5px;
