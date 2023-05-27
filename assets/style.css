@@ -129,3 +129,7 @@ form select {
 .avatar-box {
     margin-top: 100px;
 }
+
+.navbar-toggler-icon {
+    background-image: url("hamburger_icon.png");
+}
