@@ -96,6 +96,12 @@ form select {
 
 .navbar {
     color: transparent;
+    background-color: transparent !important;
+}
+
+.container-wrapper {
+    background-color: transparent !important;
+
 }
 
 #create-button {
