@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #1ACD77;
+    background-color: #1c8536;
 }
 /* NAV */
 .navbar{
@@ -49,11 +49,11 @@ ul li a:hover{
     color: #ffff;
 }
 /* HEADER*/
-
 .header_h1 h1 {
     font-family: Cocogoose-Narrow, sans-serif;
     font-size: 80px;
 }
+
 .header_h1 h2 {
     font-family: Cocogoose-Narrow, sans-serif;
     font-size: 40px;
@@ -91,12 +91,12 @@ ul li a:hover{
     background-color: #F3F3F3;
 }
 .img-fluid_2 {
-    width: 80%;
+    width: 65%;
     height: auto;
     border-radius: 30px;
 }
 .img-fluid_2\.2 {
-    width: 80%;
+    width: 60%;
     height: auto;
     border-radius: 30px;
 }
