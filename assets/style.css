@@ -36,6 +36,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #0f5132;
+}
+
 .logo h1 {
     font-size: 25px;
     margin-top: 5px;
@@ -96,6 +100,12 @@ form select {
 
 .navbar {
     color: transparent;
+    background-color: transparent !important;
+}
+
+.container-wrapper {
+    background-color: transparent !important;
+
 }
 
 #create-button {
@@ -118,4 +128,8 @@ form select {
 
 .avatar-box {
     margin-top: 100px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("hamburger_icon.png");
 }

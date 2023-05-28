@@ -3,37 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <link rel="stylesheet" href="RiseUp_style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <title>RiseUp | Welkom</title>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="assets/style.css">
+
+
 
 </head>
 <body>
 <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <div class="logo d-flex">
-                    <img src="assets/logo-riseup-wit.svg" alt="logo">
-                </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg fixed-top px-4 px-lg-0">
+        <div class="container px-0 py-4 py-md-4 px-lg-0 py-lg-0 align-items-center">
+            <div class="col-9 col-lg-2 pb-lg-0 ps-lg-2 text-start d-flex align-items-center pt-3">
+                <a href="index.html" class=" col-6 col-lg-8 ms-lg-1 "><img src="assets/logo-riseup-wit.svg" alt="logo" class="navbar-brand"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ps-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Over ons</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-pagina-bertrand.html">Contact</a>
-                    </li>
+            <div class="collapse col-lg-2 navbar-collapse justify-content-end align-items-center" id="navbarNav">
+                <ul class="navbar-nav px-2 pt-5 p-lg-0 align-items-center">
+                    <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="winkel-pagina.html">Winkel</a></li>
+                    <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="afspraken.html">Afspraken</a></li>
+                    <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="oefeningen.html">Oefeningen</a></li>
+                    <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="RiseUp_about_us.html">Over Ons</a></li>
+                    <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="login.html"><i class="fa-solid fa-user fa-xl user_icon"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -83,7 +80,7 @@
             </div>
 
             <div class="form-container-avatar d-flex justify-content-center align-items-center">
-                <form action="">
+                <form onsubmit="event.preventDefault(); window.location.href='account.html'">
                     <input id="create-button" type="submit" value="Creëer account">
                 </form>
             </div>

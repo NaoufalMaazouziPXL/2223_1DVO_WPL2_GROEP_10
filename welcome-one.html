@@ -8,22 +8,31 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="RiseUp_style.css">
 
 </head>
 <body>
+<nav class="navbar navbar-expand-lg fixed-top px-4 px-lg-0">
+  <div class="container container-wrapper px-0 py-4 py-md-4 px-lg-0 py-lg-0 align-items-center">
+    <div class="col-9 col-lg-2 pb-lg-0 ps-lg-2 text-start d-flex align-items-center pt-3">
+      <a href="index.html" class=" col-6 col-lg-8 ms-lg-1 "><img src="assets/logo-riseup-wit.svg" alt="logo" class="navbar-brand"></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse col-lg-2 navbar-collapse justify-content-end align-items-center" id="navbarNav">
+
+    </div>
+  </div>
+</nav>
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-4 green-background">
-      <a href="index.html">
-        <div class="logo d-flex ms-5 mt-3">
-          <img src="assets/logo-riseup-wit.svg" alt="logo">
-        </div>
-      </a>
       <div class="log-in-field ms-5">
         <h2>Welkom, John</h2>
         <p>Waar wil jij aan werken?</p>
-        <form  action="https://formspree.io/f/moqzrdlp" method="POST" enctype="application/x-www-form-urlencoded">
-          <label for="doel"></label>
+        <form onsubmit="event.preventDefault(); window.location.href='welcome-two.html';">          <label for="doel"></label>
           <select id="doel" name="doel">
             <option value="">Wat is je doel?</option>
             <option value="afvallen">Afvallen</option>
@@ -31,7 +40,7 @@
             <option value="voedselplan">Voedselplan</option>
             <option value="algemeen">Algemeen</option>
           </select>
-            <input id="log-button" type="submit" value="Volgende Stap" onclick="location.href='welcome-two.html'">
+            <input onclick="window.location.href='welcome-two.html'" id="log-button" type="submit" value="Volgende Stap">
         </form>
       </div>
     </div>

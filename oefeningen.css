@@ -83,6 +83,11 @@ ul li a:hover{
 .fa-brands:hover {
     color: black;
 }
+@media (max-width: 992px) {
+    .container2 {
+        margin-top: 30%;
+    }
+}
 
 @media (max-width: 767px) {
     .btn-group {
@@ -104,8 +109,12 @@ ul li a:hover{
         width: auto;
         margin-right: 1rem;
     }
+    .container2 {
+        margin-top: 40%;
+    }
 }
-@media (max-width: 1024px) {
+
+@media (max-width: 1200px) {
     .btn-group {
         display: flex;
         flex-wrap: nowrap;
@@ -127,3 +136,4 @@ ul li a:hover{
         margin-right: 1rem;
     }
 }
+

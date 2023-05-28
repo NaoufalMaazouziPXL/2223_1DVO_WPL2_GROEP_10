@@ -1,0 +1,269 @@
+/* Bertrand */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cocogoose Narrow", sans-serif;
+}
+
+@font-face {
+    font-family: 'Cocogoose-Narrow';
+    src: url('assets/cocogoose/Cocogoose-Narrow/Cocogoose-Narrow-Regular-trial.ttf');
+}
+
+body {
+    background-color: #1c8536;
+}
+/* NAV */
+.navbar{
+    background-color: #1ACD77;
+}
+
+.navbar-brand{
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #1c8536;
+}
+
+.logo_h1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.bg-color {
+    background-color: #1ACD77;
+    color: #ffff;
+}
+/* HEADER*/
+.header_h1 h1 {
+    font-family: Cocogoose-Narrow, sans-serif;
+    font-size: 80px;
+}
+
+.header_h1 h2 {
+    font-family: Cocogoose-Narrow, sans-serif;
+    font-size: 40px;
+}
+
+.header_h1 p{
+    font-family: "Inter Semi Bold", sans-serif;
+}
+.header-p {
+    font-family: "Inter Medium", serif;
+    color: #ffffff;
+}
+.button {
+    color: #1ACD77;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+/* MAIN */
+.bg-color-2{
+    background-color: #ffffff;
+}
+.bg-color-3{
+    background-color: #F3F3F3;
+}
+.img-fluid_2 {
+    width: 65%;
+    height: auto;
+    border-radius: 30px;
+}
+.img-fluid_2\.2 {
+    width: 60%;
+    height: auto;
+    border-radius: 30px;
+}
+
+
+.button_2 {
+    color: #ffffff;
+    background-color: #1ACD77;
+    border: 1px solid #1ACD77;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.button_2:hover{
+    background-color: #000000;
+    color: #1ACD77;
+    border: 1px solid #000000;
+}
+
+.main-header h1 {
+    font-family: Cocogoose-Narrow, sans-serif;
+    color: #1ACD77;
+}
+.text-p {
+    font-family: "Inter Medium",sans-serif;
+    color: #000000;
+}
+.app_h1 h1{
+    font-family: Cocogoose-Narrow, sans-serif;
+    font-size: 70px;
+}
+.img-fluid_3{
+    width: 160px;
+    height: 50px;
+}
+.mockup{
+    width: 500px;
+}
+
+.fa-heart {
+    color: #ffffff;
+}
+.fa-heart-2{
+    color: #1ACD77;
+}
+.fa-brands {
+    color: #ffffff;
+}
+.fa-brands-2 {
+    color: black;
+}
+
+@media (max-width: 992px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+        color: #ffffff;
+    }
+    .navbar-collapse{
+        background-color: #1ACD77;
+        padding: 10px;
+    }
+    .navbar-nav{
+        display: none;
+        height: 1200px;
+    }
+    li a{
+        font-size: 30px;
+    }
+    li a img{
+        width: 40px;
+    }
+    header{
+        padding-top: 100px;
+    }
+    .header_h1 h1{
+        font-size: 40px;
+    }
+    .img-fluid_2{
+        width: 90%;
+        height: auto;
+    }
+    .img-fluid_2\.2{
+        width: 80%;
+        height: auto;
+    }
+    #main_formulier{
+        padding-top: 100px;
+    }
+    .app_h1 h1{
+        font-size: 40px;
+    }
+    .img-fluid_3{
+        width: 40%;
+        height: auto;
+    }
+    .img-fluid_4{
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+
+
+/* --- CONTACT_PAGINA --- */
+.contacteer-ons{
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+.map{
+    border: 1px solid transparent;
+    border-radius: 25px 0 0 25px;
+    z-index: 1;
+}
+
+.input{
+    border-bottom: 2px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+::placeholder{
+    color: #000000;
+    opacity: 100%;
+}
+
+
+
+
+
+
+
+/* --------BETALINGEN PAGINA-------*/
+
+.img-fluid-3{
+    width: auto;
+    height: 30%;
+}
+
+.form-control{
+    width: 40px;
+    height: 30px;
+}
+.input{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: #F3F3F3;
+}
+.button_3{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.fa-solid-2{
+    color: #E6EAE5;
+}
+.text-p-2{
+    font-weight: bold;
+}
+
+.text-p-3 {
+    font-family: "Inter Medium",sans-serif;
+    color: #ffffff;
+}

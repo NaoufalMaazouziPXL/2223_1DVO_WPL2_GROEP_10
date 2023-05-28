@@ -2,10 +2,121 @@ body {
     background-color: #1acd77 !important;
 }
 
-.col-lg-3,
-.col-lg-9 {
-    height: 350px;
-    width: 10%;
-    background-color: #ffffff;
+.custom-margin {
+    margin-right: 55px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    height: 320px;
+    background-color: white;
     border-radius: 25px;
+}
+
+.bold {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
+
+#account-profile {
+    height: 100px;
+}
+
+#settings-icon {
+    height: 30px;
+}
+
+#dashboard-image {
+    height: 13rem;
+}
+
+.rectangle {
+    background-color: #F9F9F9;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.box {
+    background-color: #F9F9F9;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+p {
+    font-weight: bold;
+}
+
+.green-text {
+    color: #1acd77;
+}
+
+.afspraak-box {
+    background-color: #F9F9F9;
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.profile-picture {
+    height: 60px;
+}
+
+.afspraak-icon {
+    height: 20px;
+}
+
+#progressie-bar-een {
+    height: 10px;
+    width: 350px;
+    background-color: #1acd77;
+    border-radius: 25px;
+}
+
+
+#progressie-bar-twee {
+    height: 10px;
+    width: 100px;
+    background-color: #1acd77;
+    border-radius: 25px;
+}
+
+#progressie-bar-drie {
+    height: 10px;
+    width: 225px;
+    background-color: #1acd77;
+    border-radius: 25px;
+}
+
+.modal {
+    display: none;
+    border: none !important;
+}
+
+.input-box-modal {
+    background-color: #f1f1f1 !important;
+    height: 50px !important;
+    border: none !important;
+}
+
+.btn-primary {
+    color: white !important;
+    background-color: #1acd77 !important;
+    border-color: transparent !important;
+    width: 100%;
+    font-weight: bold;
+}
+
+.modal-content {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-footer {
+    border-top: none !important;
 }
