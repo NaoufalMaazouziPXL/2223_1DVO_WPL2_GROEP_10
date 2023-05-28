@@ -148,6 +148,7 @@ ul li a:hover{
 .fa-brands-2 {
     color: black;
 }
+
 @media (max-width: 992px){
     .navbar{
         position: fixed;
@@ -181,11 +182,11 @@ ul li a:hover{
         font-size: 40px;
     }
     .img-fluid_2{
-        width: 40%;
+        width: 90%;
         height: auto;
     }
     .img-fluid_2\.2{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     #main_formulier{
@@ -234,9 +235,9 @@ ul li a:hover{
 
 
 
-/* --------DEMO BETALINGEN PAGINA-------*/
+/* --------BETALINGEN PAGINA-------*/
 
-img-fluid-3{
+.img-fluid-3{
     width: auto;
     height: 30%;
 }
@@ -246,12 +247,12 @@ img-fluid-3{
     height: 30px;
 }
 .input{
-    border: 0px solid transparent;
+    border: 2px solid transparent;
     border-radius: 20px;
     background-color: #F3F3F3;
 }
 .button_3{
-    border: 0px solid transparent;
+    border: 1px solid transparent;
     background-color: transparent;
 }
 .fa-solid-2{

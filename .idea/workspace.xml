@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="38386a26-8e70-4ad4-b9ff-51fb40d3d961" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RiseUp_about_us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RiseUp_betalingen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RiseUp_contact-pagina.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/RiseUp_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RiseUp_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productSpecifiek.html" beforeDir="false" afterPath="$PROJECT_DIR$/productSpecifiek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productspecief.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
       <workItem from="1685028887902" duration="9612000" />
       <workItem from="1685128768455" duration="497000" />
       <workItem from="1685169494940" duration="12782000" />
-      <workItem from="1685256484367" duration="2156000" />
+      <workItem from="1685256484367" duration="4257000" />
     </task>
     <servers />
   </component>
