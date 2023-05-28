@@ -160,7 +160,13 @@ ul li a:hover{
     }
     .navbar-toggler{
         color: #ffffff;
+        border: none !important;
     }
+
+    .navbar-toggler-icon{
+        background-image: url("assets/hamburger_icon.png") !important;
+    }
+
     .navbar-collapse{
         background-color: #1ACD77;
         padding: 10px;
