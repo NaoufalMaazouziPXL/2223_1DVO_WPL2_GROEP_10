@@ -43,8 +43,11 @@ function removeActive() {
   
   // De waarden van van de parameters van de query
   let naam = params.get('naam');
-  let prijs = params.get('productprijs');
+  let prijsEuro = params.get('productprijs');
   let id = params.get('productID');
+
+
+  let prijs = prijsEuro.slice(prijsEuro.indexOf('€') + 1);
 
 let titel = document.createTextNode(naam);
 let prijsnode = document.createTextNode(prijs);

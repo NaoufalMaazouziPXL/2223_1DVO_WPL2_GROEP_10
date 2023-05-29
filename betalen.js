@@ -1,3 +1,23 @@
+let storagewinkelmandje = JSON.parse(localStorage.getItem("storagewinkelmandje")) || [];
+let aantal = document.getElementById('aantalArt');
+let totaal = 0
+let divImg = document.getElementById('divImg');
+
+aantal.innerText = storagewinkelmandje.length;
+for (let teller = 0; teller < storagewinkelmandje.length; teller++) {
+    totaal += storagewinkelmandje[teller].artikelPrijs * storagewinkelmandje[teller].artikelHoeveelheid;
+    let img = document.createElement("img");
+    img.src = 'assets/product'+ storagewinkelmandje[teller].artikelId+'.png';
+    img.alt = "pet";
+    img.classList.add('grootteAfbB', 'rounded', 'rounded-3', 'mx-2');
+    divImg.appendChild(img);
+
+
+}
+    document.getElementById('totaal').textContent = totaal;
+    document.getElementById('verzend').textContent = totaal;
+
+
 let lever = document.getElementsByTagName('h3')[1];
 let betaal = document.getElementsByTagName('h3')[2];
 let returnButtonOne = document.getElementsByClassName('return-button-left')[0];
@@ -66,3 +86,6 @@ applePayButton.addEventListener('click', function () {
     document.getElementById('currentPayMethod').src = 'assets/applepay.svg';
     document.getElementById('currentPaymentText').innerText = "Apple Pay";
 })
+
+
+

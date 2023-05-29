@@ -169,3 +169,8 @@ button, input {
 .container-center {
     margin-top: 15vh !important;
 }
+
+.grootteAfbB {
+    width: 125px;
+    height: 125px;
+}
