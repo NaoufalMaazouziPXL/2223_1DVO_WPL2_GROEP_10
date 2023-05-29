@@ -12,7 +12,7 @@ for (let product of producten) {
         let encodedPrijs = encodeURIComponent(productprijs);
         let encodedID = encodeURIComponent(productID);
 
-        window.location.href= 'productSpecifiek.html?naam='+encodedNaam+'&productprijs='+encodedPrijs+'&productID='+encodedID
+        window.location.href= 'product-specifiek.html?naam='+encodedNaam+'&productprijs='+encodedPrijs+'&productID='+encodedID
     })
 
 

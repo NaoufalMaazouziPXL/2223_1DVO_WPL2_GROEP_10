@@ -34,11 +34,18 @@ returnButtonOne.addEventListener('click', function () {
 let currentCity = document.getElementById('currentCity');
 let currentStreetName = document.getElementById('currentStreetName');
 let submitButton = document.getElementById('submitButtonNames');
+let submitButtonTwo = document.getElementById('opslaanButton');
+
 
 submitButton.addEventListener('click', function () {
     currentCity.innerText = document.getElementById('postalCodeInput').value + " " + document.getElementById('cityNameInput').value;
     currentStreetName.innerText = document.getElementById('houseNumberAndStreetInput').value;
     document.getElementsByClassName('modal')[0].style.display = 'none';
+})
+
+submitButtonTwo.addEventListener('click', function () {
+    document.getElementsByClassName('modal-lever')[0].style.display = 'none';
+
 })
 
 betaal.addEventListener('click', function () {
