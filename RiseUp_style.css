@@ -11,9 +11,6 @@
     src: url('assets/cocogoose/Cocogoose-Narrow/Cocogoose-Narrow-Regular-trial.ttf');
 }
 
-body {
-    background-color: #1c8536;
-}
 /* NAV */
 .navbar{
     background-color: #1ACD77;
