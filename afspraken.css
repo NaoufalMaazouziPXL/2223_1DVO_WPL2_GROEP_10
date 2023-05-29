@@ -85,6 +85,17 @@ ul li a:hover{
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
+
+    .navbar-toggler{
+        color: #ffffff;
+        border: none !important;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url("assets/hamburger_icon.png") !important;
+    }
+
+
     .btn {
         flex: 0 0 auto;
         margin-right: 1rem;

@@ -53,19 +53,19 @@ a:hover {
 }
 .background1 {
     height: 100vh;
-    background-image: url("background.svg");
+    background-image: url("assets/background.svg");
 }
 .background2 {
     height: 100vh;
-    background-image: url("background2.svg");
+    background-image: url("assets/background2.svg");
 }
 .background3 {
     height: 100vh;
-    background-image: url("background3.svg");
+    background-image: url("assets/background3.svg");
 }
 .background4 {
     height: 100vh;
-    background-image: url("background4.svg");
+    background-image: url("assets/background4.svg");
 }
 
 .log-in-field {
@@ -74,7 +74,7 @@ a:hover {
 
 @font-face {
     font-family: 'Cocogoose-Narrow';
-    src: url('cocogoose/Cocogoose-Narrow/Cocogoose-Narrow-Regular-trial.ttf');
+    src: url('assets/cocogoose/Cocogoose-Narrow/Cocogoose-Narrow-Regular-trial.ttf');
 }
 
 
@@ -131,5 +131,5 @@ form select {
 }
 
 .navbar-toggler-icon {
-    background-image: url("hamburger_icon.png");
+    background-image: url("assets/hamburger_icon.png");
 }
