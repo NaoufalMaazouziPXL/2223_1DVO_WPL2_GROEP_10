@@ -8,13 +8,18 @@ let object = {
 };
 
 
+let buttonBestellen = document.getElementById('toevoegen')
+console.log()
+
+    
 //Functie om items toe te voegen aan het winkelmandje
-function toevoegen() {
+buttonBestellen.addEventListener('click', function toevoegen(){
+
     //Het lezen van de HTML waarden, om te weten wat we willen toevoegen
-    let titel = document.getElementById("titel").innerHTML;
-    let prijs = parseInt(document.getElementById("prijs").innerHTML);
-    let hoeveelheid = parseInt(document.getElementById("hoeveelheid").value);
-    let artikelID = document.getElementById("productItem").value;
+    let titel = document.getElementById("titel").textContent;
+    let prijs = parseInt(document.getElementById("prijs").textContent);
+    let hoeveelheid = parseInt(document.getElementById("input-amount").value);
+    let artikelID = document.getElementById("productId").innerHTML;
 
     //Winkelmandje ophalen & in een array steken
     let storagewinkelmandje = JSON.parse(localStorage.getItem("storagewinkelmandje")) || [];
@@ -44,11 +49,13 @@ for (let i = 0; i < storagewinkelmandje.length; i++ && !artikelFound) {
         localStorage.setItem("storagewinkelmandje", JSON.stringify(storagewinkelmandje));
     }
 
-    berekenPrijs();
 
 
-   
-}
+
+    window.location.href= 'betalingen.html'
+
+})
+
 //Functie voor het berekenen van de prijs
 function berekenPrijs() {
 

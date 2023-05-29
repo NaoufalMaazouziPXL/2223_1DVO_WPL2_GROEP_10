@@ -274,3 +274,7 @@ ul li a:hover{
     font-family: "Inter Medium",sans-serif;
     color: #ffffff;
 }
+
+.hidden {
+    display: none;
+}
