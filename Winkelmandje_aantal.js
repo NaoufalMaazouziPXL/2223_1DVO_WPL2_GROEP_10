@@ -164,7 +164,7 @@ let minButtons = document.getElementsByClassName('minus');
 
 // Loop through each plus button and add the click event listener
 for (let minButton of minButtons) {
-    minButton   .addEventListener('click', function handlePlusClick() {
+    minButton.addEventListener('click', function handlePlusClick() {
         // Traverse up the DOM hierarchy to the parent element containing the input
 
         let parentElement = minButton.closest('.bg-color-3');
@@ -192,3 +192,4 @@ for (let minButton of minButtons) {
 
     });
 }
+
