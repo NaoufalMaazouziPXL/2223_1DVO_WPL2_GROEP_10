@@ -156,7 +156,10 @@ button, input {
 
 .card {
     border: none !important;
-    border-radius: 25% !important;
+}
+
+.card-body {
+    border-radius: 0.5em !important;
 }
 
 #submitButtonNames, #opslaanButton {
@@ -164,7 +167,9 @@ button, input {
     font-weight: bold;
 }
 
-
+.fa-brands, .fa-heart {
+    color: #ffffff !important;
+}
 
 .container-center {
     margin-top: 15vh !important;

@@ -12,10 +12,9 @@ for (let teller = 0; teller < storagewinkelmandje.length; teller++) {
     img.classList.add('grootteAfbB', 'rounded', 'rounded-3', 'mx-2');
     divImg.appendChild(img);
 
-
 }
-    document.getElementById('totaal').textContent = totaal;
-    document.getElementById('verzend').textContent = totaal;
+document.getElementById('totaal').textContent = totaal;
+document.getElementById('verzend').textContent = parseInt(totaal / 90);
 
 
 let lever = document.getElementsByTagName('h3')[1];
