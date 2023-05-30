@@ -23,3 +23,4 @@ let closeButtonLever = document.getElementsByClassName('btn-close')[1];
 closeButtonLever.addEventListener('click', function () {
     document.getElementsByClassName('modal-lever')[0].style.display = 'none';
 })
+

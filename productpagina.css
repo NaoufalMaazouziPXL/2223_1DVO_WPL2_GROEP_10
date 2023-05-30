@@ -70,9 +70,7 @@ ul li a:hover{
 
 
 /* Producten pagina's */
-body {
-    background-color: rgb(250, 243, 243);
-}
+
 .porductenpagina {
     background-color: #1acd77;
 }
@@ -92,7 +90,7 @@ footer img {
 }
 .color {
     color: #1acd77;
-    font-size: 5rem;
+    font-size: 3.5rem;
 }
 
   .tekstGrootte {
@@ -102,25 +100,23 @@ footer img {
     font-size: 1.5rem;
   }
   .prijsGrootte {
-    font-size: 4.5rem;
+    font-size: 2rem;
+    margin-left: 1%;
   }
+  .input{
+
+        border: 2px solid transparent;
+        border-radius: 20px;
+        
+        width: 70px;
+}
 
   .sizeeee {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: normal;
   }
 
-  @media  (min-width: 992px) {
-    .test {
-        font-size:2rem;
-    }
-    .tekstGrootePrijs {
-        font-size: 1.8rem;
-      }
-      .prijsGrootte {
-        font-size: 5rem;
-      }
-  }
+
 
 
   
@@ -143,10 +139,7 @@ footer img {
     color: #ffffff;
 
 }
-.btn:hover {
-    background-color: #ffffff;
-    color: #1ACD77;
-}
+
 
 .btn-div {
     margin-top: 100px;
@@ -225,5 +218,31 @@ footer img {
 }
 
 
+.left-foto {
+    max-width: 60%;
+}
+.TekstP {
+    font-size: 20px
+}
 
 
+
+
+
+@media  (min-width: 992px) {
+    .test {
+        font-size:2rem;
+    }
+    .tekstGrootePrijs {
+        font-size: 1.8rem;
+      }
+      .prijsGrootte {
+        font-size: 3rem;
+      }
+
+  }
+
+  .active {
+    background-color: #1ACD77;
+    color: #fff;
+  }

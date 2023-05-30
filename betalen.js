@@ -1,3 +1,22 @@
+let storagewinkelmandje = JSON.parse(localStorage.getItem("storagewinkelmandje")) || [];
+let aantal = document.getElementById('aantalArt');
+let totaal = 0
+let divImg = document.getElementById('divImg');
+
+aantal.innerText = storagewinkelmandje.length;
+for (let teller = 0; teller < storagewinkelmandje.length; teller++) {
+    totaal += storagewinkelmandje[teller].artikelPrijs * storagewinkelmandje[teller].artikelHoeveelheid;
+    let img = document.createElement("img");
+    img.src = 'assets/product'+ storagewinkelmandje[teller].artikelId+'.png';
+    img.alt = "pet";
+    img.classList.add('grootteAfbB', 'rounded', 'rounded-3', 'mx-2');
+    divImg.appendChild(img);
+
+}
+document.getElementById('totaal').textContent = totaal;
+document.getElementById('verzend').textContent = parseInt(totaal / 90);
+
+
 let lever = document.getElementsByTagName('h3')[1];
 let betaal = document.getElementsByTagName('h3')[2];
 let returnButtonOne = document.getElementsByClassName('return-button-left')[0];
@@ -14,11 +33,18 @@ returnButtonOne.addEventListener('click', function () {
 let currentCity = document.getElementById('currentCity');
 let currentStreetName = document.getElementById('currentStreetName');
 let submitButton = document.getElementById('submitButtonNames');
+let submitButtonTwo = document.getElementById('opslaanButton');
+
 
 submitButton.addEventListener('click', function () {
     currentCity.innerText = document.getElementById('postalCodeInput').value + " " + document.getElementById('cityNameInput').value;
     currentStreetName.innerText = document.getElementById('houseNumberAndStreetInput').value;
     document.getElementsByClassName('modal')[0].style.display = 'none';
+})
+
+submitButtonTwo.addEventListener('click', function () {
+    document.getElementsByClassName('modal-lever')[0].style.display = 'none';
+
 })
 
 betaal.addEventListener('click', function () {
@@ -66,3 +92,6 @@ applePayButton.addEventListener('click', function () {
     document.getElementById('currentPayMethod').src = 'assets/applepay.svg';
     document.getElementById('currentPaymentText').innerText = "Apple Pay";
 })
+
+
+

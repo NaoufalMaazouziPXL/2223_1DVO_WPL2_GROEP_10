@@ -3,20 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>RiseUp | Winkel</title>
+  <link rel="stylesheet" href="RiseUp_style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/80e72111b7.js" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+          crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="afspraken.css">
+  <script src="winkel-pagina.js" defer></script>
+
+
 </head>
 <body>
 
 <header>
-  <nav class="navbar navbar-expand-lg fixed-top px-4 px-lg-0">
+  <nav class="navbar navbar-expand-lg fixed-top px-4 product px-lg-0">
     <div class="container px-0 py-4 py-md-4 px-lg-0 py-lg-0 align-items-center">
       <div class="col-9 col-lg-2 pb-lg-0 ps-lg-2 text-start d-flex align-items-center pt-3">
         <a href="index.html" class=" col-6 col-lg-8 ms-lg-1 "><img src="assets/logo-riseup-wit.svg" alt="logo"
@@ -31,7 +39,7 @@
           <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="winkel-pagina.html">Winkel</a></li>
           <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="afspraken.html">Afspraken</a></li>
           <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="oefeningen.html">Oefeningen</a></li>
-          <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="about_us.html">Over Ons</a></li>
+          <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="over-ons.html">Over Ons</a></li>
           <li class="px-3 pb-5 p-lg-3 pb-lg-0"><a href="login.html"><i
                   class="fa-solid fa-user fa-xl user_icon"></i></a></li>
         </ul>
@@ -54,16 +62,16 @@
           <a  href="productSpecifiek.html">
             <button class="btn rounded-pill me-2">All</button>
           </a>
-          <a href="productSpecifiek.html">
+          
             <button class="btn rounded-pill me-2">Voeding</button>
           </a>
-          <a href="productSpecifiek.html">
+          
             <button class="btn rounded-pill me-2">Gewichten</button>
           </a>
-          <a href="productSpecifiek.html">
+          
             <button class="btn rounded-pill me-2">Tape</button>
           </a>
-          <a href="productSpecifiek.html">
+          
             <button class="btn rounded-pill me-2">Merchandise</button>
           </a>
         </div>
@@ -75,172 +83,184 @@
   <div class="container mt-50 mb-50">
     <div class="row pt-3">
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product1.png" class="img-fluid" alt="Orderbox 1">
             </div>
-            <div class="col-8 col-md-6 bg-white rounded">
+            <div class="col-8 col-md-6 bg-white rounded" >
               <h6 class="bold mb-2 pt-3 tekstGrootte">Smoothie</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">1</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product2.png" class="img-fluid" alt="Orderbox 2">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Aluminium fles</h6>
               <p class="tekstGrootePrijs">€25</p>
+              <p class="hidden">2</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product3.png" class="img-fluid" alt="Orderbox 3">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Fitness mat XL</h6>
               <p class="tekstGrootePrijs">€30</p>
+              <p class="hidden">3</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product4.png" class="img-fluid" alt="Orderbox 4">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Foam roller</h6>
               <p class="tekstGrootePrijs">€14</p>
+              <p class="hidden">4</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product5.png" class="img-fluid" alt="Orderbox 5">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Pet RiseUp</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">5</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product6.png" class="img-fluid" alt="Orderbox 6">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Gewichten</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">6</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product7.png" class="img-fluid" alt="Orderbox 7">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Fitness tracker</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">7</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product8.png" class="img-fluid" alt="Orderbox 8">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Loopband</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">8</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product9.png" class="img-fluid" alt="Orderbox 9">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Recepten Boek</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">9</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product10.png" class="img-fluid" alt="Orderbox 10">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Eiwitrepen</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">10</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product11.png" class="img-fluid" alt="Orderbox 11">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Drinkfles Sport</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">11</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4">
-        <a href="productSpecifiek.html">
-          <div class="row rounded bg-white">
+      <div class="col-12 col-md-6 col-lg-4 pt-3 px-4 ">
+        
+          <div class="row rounded bg-white product">
             <div class="col-4 col-md-6  bg-light">
               <img src="assets/product12.png" class="img-fluid" alt="Orderbox 11">
             </div>
             <div class="col-8 col-md-6 bg-white rounded">
               <h6 class="bold mb-2 pt-3 tekstGrootte">Supplementen</h6>
               <p class="tekstGrootePrijs">€10</p>
+              <p class="hidden">12</p>
             </div>
           </div>
-        </a>
+        
       </div>
 
     </div>
@@ -251,19 +271,19 @@
 
 
 
-<footer class="bg-color-2">
+<footer class="bg-color-4">
   <div class="container py-2">
-    <div class="row align-content-center quote">
-      <div class="d-flex col-6 col-md-6">
-        <p>Made with</p>
-        <i class="fa-solid fa-heart px-1 pt-1 button"></i>
+      <div class="row align-content-center quote">
+          <div class="d-flex col-6 col-md-6">
+              <p>Made with</p>
+              <i class="fa-solid fa-heart px-1 pt-1"></i>
+          </div>
+          <div class="col-6 col-md-6 text-end social_media">
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands  fa-instagram text-p"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands  fa-facebook text-p"></i></a>
+              <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands  fa-youtube text-p"></i></a>
+          </div>
       </div>
-      <div class="col-6 col-md-6 text-end social_media">
-        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram text-p"></i></a>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook text-p"></i></a>
-        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube text-p"></i></a>
-      </div>
-    </div>
   </div>
 </footer>
 
