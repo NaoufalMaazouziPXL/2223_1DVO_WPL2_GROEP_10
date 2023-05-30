@@ -87,6 +87,10 @@ ul li a:hover{
 .bg-color-3{
     background-color: #F3F3F3;
 }
+.bg-color-4 {
+    background-color: #1acd77;
+}
+
 .img-fluid_2 {
     width: 65%;
     height: auto;
